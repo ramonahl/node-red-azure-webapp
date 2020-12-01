@@ -4,7 +4,8 @@ process.env.Path = 'D:\\Program Files\\Git\\cmd;D:\\Program Files\\Git\\usr\\bin
 var express = require("express");
 var RED=require('node-red');
 var app= express();
- var http=require('http');
+var http=require('http');
+
 
 const PORT=process.env.PORT||8000;
 
@@ -20,3 +21,6 @@ app.use(settings.httpNodeRoot,RED.httpNode);
 console.log(`listening port:${settings.uiPort}`);
 RED.start();
 
+const requestListener = function (req, res) { res.writeHead(200); res.end('Hello, World!'); }
+const server = http.createServer(requestListener);
+server.listen(8080);
