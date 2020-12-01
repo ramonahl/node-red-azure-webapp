@@ -70,4 +70,5 @@ To secure this deployment and add an admin password edit the `settings.js` file.
   * Update cognitive-services 0.5.5
   * Update dashboard 2.21.0
   * Update node-swagger 0.1.9
+*TEST
   
