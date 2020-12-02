@@ -15,8 +15,7 @@
     "node-red-dashboard": "^2.21.0",
     "node-red-node-swagger": "^0.1.9",
     "node-red-contrib-telegrambot": "^8.9.3",
-    "node-red-node-ui-table":"^0.3.8"
-
+    "node-red-node-ui-table": "^0.3.8"
   },
   "devDependencies": {},
   "scripts": {
