@@ -20,7 +20,3 @@ app.use(settings.httpNodeRoot,RED.httpNode);
  server.listen(settings.uiPort);
 console.log(`listening port:${settings.uiPort}`);
 RED.start();
-
-const requestListener = function (req, res) { res.writeHead(200); res.end('Hello, World!'); }
-const serverHealth = http.createServer(requestListener);
-serverHealth.listen(8080);
