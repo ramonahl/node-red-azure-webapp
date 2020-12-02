@@ -7,7 +7,7 @@ var app= express();
 var http=require('http');
 
 
-const PORT=process.env.PORT||8000;
+const PORT=process.env.PORT||1880;
 
 var server=http.createServer(app);
 var settings=require("./settings.js");
