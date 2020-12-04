@@ -98,6 +98,7 @@ module.exports = {
             permissions: "*"
         }]
     },
+    
 
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
     // the static content (httpStatic), the following properties can be used.
