@@ -94,7 +94,7 @@ module.exports = {
         type: "credentials",
         users: [{
             username: "nodenada",
-            password: "bocadillodecalamares2020",
+            password: "$2a$08$uyJNIcKR6Z7nJF78HD7JwuPWrhLelm5GynS0FcIoyQMK.qffTEgtW",
             permissions: "*"
         }]
     },
